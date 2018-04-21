@@ -20,7 +20,7 @@ pinMode(AUX, INPUT);
 //pinMode(MODE_SWITCH, INPUT); 
 
 Serial.begin(9600); 
-softSerial.begin(1200); 
+softSerial.begin(9600); //Скорость передачи по радио
 
 //digitalWrite(M0, HIGH); // Если на М0 и на М1 подать высокий уровень то передатчик будет всегда включен!
 digitalWrite(M0, LOW); // Если на М0 и на М1 подать низкий уровень то передатчик будет включатся только 
@@ -31,7 +31,7 @@ digitalWrite(M1, LOW); //Можно по экспериментировать с
 void loop() {
 
 softSerial.println ("hello world"); //Отправка сообщения по радио 
-Serial.println ("hello world"); // Отправка в монитор, для проверки. В дальнейшем можно убрать.
+//Serial.println ("hello world"); // Отправка в монитор, для проверки. В дальнейшем можно убрать.
 delay(2000); 
 
 }
