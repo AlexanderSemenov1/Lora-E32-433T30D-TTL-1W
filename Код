@@ -1,12 +1,6 @@
 //Transceiver E32 433T30D v6.2 and ARDUINO UNO
 // Код на передачу сообщения!
 
-/* 8: M0 
-* 9: M1 
-* 10: RX 
-* 11: TX 
-* 12: AUX 
-*/ 
 #include <SoftwareSerial.h> 
 #define M0 12 
 #define M1 11 
