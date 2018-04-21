@@ -10,8 +10,8 @@
 
 SoftwareSerial softSerial(SOFT_RX, SOFT_TX); // RX, TX 
 
-void setup() { 
-
+void setup() {
+  
 pinMode(M0, OUTPUT); 
 pinMode(M1, OUTPUT); 
 pinMode(SOFT_RX, INPUT); 
@@ -28,7 +28,7 @@ digitalWrite(M0, LOW); // Если на М0 и на М1 подать низки�
 digitalWrite(M1, LOW); //Можно по экспериментировать с этими уровнями.
 } 
 
-void loop() { 
+void loop() {
 
 softSerial.println ("hello world"); //Отправка сообщения по радио 
 Serial.println ("hello world"); // Отправка в монитор, для проверки. В дальнейшем можно убрать.
