@@ -1,5 +1,6 @@
  //Ресивер на прием показаний
 #include <SoftwareSerial.h>
+//Arduino Uno
 #define M0 12
 #define M1 11
 #define SOFT_TX 10
