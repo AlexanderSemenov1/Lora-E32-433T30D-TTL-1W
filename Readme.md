@@ -1,5 +1,6 @@
 
-
+* Передатча/прием информации по радио каналу 433мГц с помощью Lora E32 433T30D и Ардуино Уно
+* Transmission/reception of information over the radio channel 433 MHz using Lora E32 433T30D and Arduino Uno
 
 
 ![](https://github.com/AlexanderSemenov1/Lora-E32-433T30D-TTL-1W/blob/master/Foto/Foto1.png)
